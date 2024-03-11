@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Style Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <h1 id="heading1">Change the properties to change the style</h1>
+        <span id="heading2">JAVASCRIPT</span>
+        
+        <div class="css-controller">
+            <label for="color-changer">Base</label>
+            <input type="color" name="base" id="base" value="#ff0000">
+            <label for="width">Width</label>
+            <input type="range" min="0" max="100" value="50" data-sizing="%" name="width" id="width">
+            <label for="border-radius">Border-Radius</label>
+            <input type="range" min="0" max="25" value="10" data-sizing="px" name="border-radius" id="border-radius">
+            <label for="padding">Padding</label>
+            <input type="range" min="0" max="200" value="10" data-sizing="px" name="padding" id="padding">
+            <label for="blur">Blur</label>
+            <input type="range" min="0" max="25" value="0" data-sizing="px" name="blur" id="blur">
+        </div>       
+        <img src="https://cdn.pixabay.com/photo/2023/04/10/20/41/bird-7914702_640.jpg" alt="image"> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
